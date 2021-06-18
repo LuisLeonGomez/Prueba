@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            text-decoration: overline;
+            text-transform: uppercase;
+            color: darkgoldenrod;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2{
+            text-align: left;
+            text-decoration: underline;
+            text-transform: lowercase;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 3px 3px blue;
+            background-color: cadetblue;
+        }
+        h3{
+            text-align: right;
+            text-decoration: line-through;
+            text-transform: capitalize;
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: 2px 2px chocolate;
+            background-color: cornflowerblue;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            position: relative;
+            animation-name: ejemplo;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+
+        }
+        @keyframes ejemplo {
+            0%{background-color: brown; left: 0px; top: 0px;}
+            20%{background-color: blue; left: 500px; top: 0px;}
+            40%{background-color: yellow; left: 500px; top: 400px;}
+            60%{background-color: green; left: 0px; top: 400px;}
+            80%{background-color: salmon; left: 0px; top: 0px;}
+            100%{transform: rotate(5000deg);}
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Curso Front End</h1>
+    <h2>Curso Front End</h2>
+    <h3>Curso Front End</h3>
+    <div></div>
+
+   
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <center>
+        <!--Centrar los contenido en este caso del body-->
+        <h1 style="font-size: large;"> Veterinaria</h1>
+        <hr>
+        <br>
+        <!--Definiendo los elementos del formulario (<form>)-->
+            <form action="index.html" method="GET">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Nombre:</td>
+                            <td><input type="text" id="nombre" placeholder="Ingrese el nombre"></td>
+                        </tr>
+                        <tr>
+                            <td>Tipo de Mascota</td>
+                            <td><select id="tipo">
+                                    <option>Seleccione</option>
+                                    <option>Gato</option>
+                                    <option>Perro</option>
+                                    <option>Conejo</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>Fecha de Nacimiento</td>
+                            <td><input type="date" id="Nacimiento"></td>
+                        </tr>
+                        <tr>
+                            <td>Tipo Cliente</td>
+                            <td>
+                                <input type="radio" name="Grupo1" value="1"/> Normal
+                                <input type="radio" name="Grupo1" value="2"/> Vip
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Servicios Prestados: </td>
+                            <td>
+                                <input type="checkbox" id="vacuna" value="1"/>Vacuna
+                                <input type="checkbox" id="Peluqueria" value="2"/>Peluqueria
+                                <input type="checkbox" id="Consulta" value="3"/>Consulta Medica
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Coutas para pagar</td>
+                            <td><select id="cuotas">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="reset" value="Limpiar">
+                                <input type="submit" value="Continuar">
+
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </form>
+
+
+    </center>
+</body>
+
+</html>
